@@ -1,0 +1,53 @@
+.btn {
+  &,
+  &:link,
+  &:active {
+    color: $text-light;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  &:hover {
+    color: $color-green;
+    font-weight: 400;
+  }
+
+  &-started {
+    color: $color-black;
+    background: $color-white;
+    padding: 1.6rem;
+    border-radius: 50%;
+    font-weight: 400 !important;
+    margin-right: 6rem;
+  }
+
+  &-watch--video {
+    font-weight: 400 !important;
+  }
+
+  &-ellipse {
+    border: 2px solid $color-white;
+    padding: 1.5rem 6rem;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  &-signup {
+    border: 2px solid $color-white;
+    padding: 0.9rem 2.5rem;
+    border-radius: 80%;
+  }
+}
+
+.cta-container {
+  position: relative;
+}
+
+.play-icon {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}

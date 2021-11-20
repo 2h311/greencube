@@ -1,0 +1,41 @@
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+  @include clearfix;
+
+  &__inner {
+    width: 90%;
+    @include clearfix;
+    margin: 0 auto;
+  }
+}
+
+.col {
+  &-1 {
+    width: 20%;
+  }
+
+  &-2 {
+    width: 60%;
+  }
+
+  &-3 {
+    width: 20%;
+  }
+
+  &-motif {
+    width: 45%;
+    height: 80vh;
+    background: #444;
+  }
+
+  &-text {
+    width: 45%;
+    float: right !important;
+    padding: 6rem 0;
+  }
+}
+
+[class^="col-"] {
+  float: left;
+}

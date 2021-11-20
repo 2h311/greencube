@@ -1,0 +1,20 @@
+.footer {
+  text-align: right;
+  padding: 0.25rem;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__img {
+    width: 2%;
+  }
+}
