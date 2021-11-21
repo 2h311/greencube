@@ -1,0 +1,41 @@
+.navbar {
+  background-color: $color-dark;
+  color: $color-white;
+  padding: 2rem;
+
+  &__logo {
+    position: relative;
+
+    &-img {
+      width: 22%;
+    }
+
+    &-text {
+      font-size: 2rem;
+      font-weight: 400;
+
+      @include center-element(-35%, -70%);
+    }
+  }
+}
+
+.list {
+  &__container {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+  }
+}
+
+.btn-group {
+  padding-top: 1rem;
+  text-align: right;
+}

@@ -1,0 +1,21 @@
+.footer {
+  background-color: $color-dark;
+  padding: 0.15rem;
+  color: $color-white;
+  text-align: right;
+
+  &__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__img {
+    width: 2%;
+  }
+
+  &__text {
+    display: inline-block;
+    @include center-element(1650%, -50%);
+  }
+}

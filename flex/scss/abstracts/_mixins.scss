@@ -1,0 +1,6 @@
+@mixin center-element($x, $y) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate($x, $y);
+}

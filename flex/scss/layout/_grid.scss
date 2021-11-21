@@ -1,0 +1,40 @@
+.row {
+  max-width: 1200rem;
+  display: flex;
+}
+
+.col {
+  &:not(:last-child) {
+    margin-right: 22rem;
+  }
+
+  &-1 {
+    flex-basis: 18rem;
+  }
+
+  &-2 {
+    flex-grow: 2;
+  }
+
+  &-3 {
+    flex-grow: 0.8;
+  }
+}
+
+.col-pix {
+  background: grey;
+  flex-basis: 45%;
+}
+
+.col-text {
+  flex-basis: 45%;
+}
+
+.container {
+  width: 90%;
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
