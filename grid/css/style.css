@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap");
+.heading {
+  font-size: 7rem;
+  line-height: 6.3rem;
+}
+.heading-skilled {
+  color: #f8aeda;
+}
+.heading-individual {
+  color: #11957d;
+}
+
+.intro {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  line-height: 2.5rem;
+}
+
+.navbar {
+  background-color: #101010;
+  color: #fff;
+}
+.navbar__inner {
+  padding: 1rem;
+}
+.navbar__logo-img {
+  width: 16%;
+}
+.navbar__middle-wrapper {
+  font-size: medium;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.btn, .btn:link, .btn:active {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  align-self: center;
+}
+.btn:hover {
+  color: #11957d;
+}
+.btn-groups {
+  text-align: right;
+  font-size: medium;
+  display: grid;
+  grid-template-columns: auto 50%;
+  grid-column-gap: 4rem;
+  align-content: center;
+  height: 90%;
+}
+.btn-signup {
+  border: 2px solid #fff;
+  padding: 0.7rem 1.2rem;
+  text-align: center;
+  border-radius: 80%;
+}
+
+.navbar__inner {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+.navbar__middle-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 90%;
+}
+
+.container {
+  padding-top: 2rem;
+  background-color: #101010;
+  color: #fff;
+  display: grid;
+  grid-template-rows: 95% auto;
+  height: 90vh;
+}
+.container__item-2 {
+  background-color: lightslategrey;
+}
+.container__item-3 {
+  background-color: lightgreen;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend", "Oxygen", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container__item-2 {
+  height: 100%;
+  display: inherit;
+  grid-template-columns: 45% 45%;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.col-1 {
+  height: 100%;
+  background-color: #f1f1f1;
+}
+.col-2 {
+  background-color: magenta;
+  padding: 6rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

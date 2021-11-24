@@ -1,0 +1,20 @@
+.navbar {
+  background-color: $color-dark;
+  color: $color-white;
+
+  &__inner {
+    padding: 1rem;
+  }
+
+  &__logo-img {
+    width: 16%;
+  }
+
+  &__middle-wrapper {
+    font-size: medium;
+  }
+}
+
+.logo {
+  font-size: 2rem;
+}
